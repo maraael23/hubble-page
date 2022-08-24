@@ -16,12 +16,7 @@ h1{
 p{
     color:var(--white);
 }
-nav img{
-    top:0;
-    left:0;
-    padding:30px;
-    width:11em;
-}
+
 #container{
     margin:50px;
 }
@@ -87,6 +82,12 @@ i:hover{
     h1{
         font-size: 1.8em;
     }
+    nav img{
+    top:0;
+    left:0;
+    padding:30px;
+    width:8em;
+    }
     p{
         font-size:1.1em;
     }
@@ -113,6 +114,12 @@ i:hover{
     h1{
         font-size: 2.3em;
         margin-left:50px;
+    }
+    nav img{
+    top:0;
+    left:0;
+    padding:30px;
+    width:11em;
     }
     p{
         margin-left: 50px;
@@ -142,6 +149,12 @@ i:hover{
     h1{
         font-size: 2.6em;
         margin-left:50px;
+    }
+    nav img{
+    top:0;
+    left:0;
+    padding:30px;
+    width:11em;
     }
     p{
         margin-left: 50px;
