@@ -42,11 +42,9 @@ button:hover{
     transition: 0.3s;
     
 }
-#socials{
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right:40px;
+ul li{
+    display: inline;
+    list-style-type: none;
 }
 i{
     transform: scale(1.4);
@@ -93,6 +91,9 @@ i:hover{
     }
     #text{
         text-align: center;
+    }
+    #socials{
+        text-align:center;
     }
    
 }
@@ -146,5 +147,9 @@ i:hover{
    button{
        margin-left:50px;
        width:30%;
+   }
+   #socials{
+     text-align:right;
+     margin-right:40px;
    }
 }
