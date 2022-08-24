@@ -1,0 +1,150 @@
+:root{
+    --violet: hsl(257, 40%, 49%);
+    --magenta-socials:hsl(300, 80%, 61%);
+    --magenta:hsl(300, 69%, 71%);
+    --white:hsl(0, 0%, 100%);
+}
+body{
+    background-image:url("/src/images/bg-mobile.svg");
+    background-repeat: no-repeat;  
+    font-family: 'Open Sans', sans serif;
+    background-color: var(--violet);
+}
+h1{
+    color:var(--white);
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color:var(--white);
+}
+nav img{
+    top:0;
+    left:0;
+    padding:30px;
+    width:9em;
+}
+#container{
+    margin:50px;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--white);
+    color:var(--violet);
+    padding:13px;
+    border-radius:50px;
+    border:none;
+   
+}
+button:hover{
+    background-color: var(--magenta);
+    color:var(--white);
+    transition: 0.3s;
+    
+}
+#socials{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right:40px;
+}
+i{
+    transform: scale(1.4);
+    margin:0px 17px 5px 10px;
+    color:var(--white);
+    border:1px var(--white) solid;
+    border-radius: 50%;
+    transition:0.2s;
+}
+#fb{
+   padding: 6px 9px 6px 9px;
+}
+#ig{
+    padding: 7px 8px 7px 8px;
+}
+#twit{
+    padding:7px;
+}
+i:hover{
+    color:var(--magenta-socials);
+    border:1px var(--magenta-socials) solid;
+}
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width:360px) {
+    
+    h1{
+        font-size: 1.8em;
+    }
+    p{
+        font-size:1.1em;
+    }
+    button{
+        width:70%;
+    }
+    #img img{
+        width: 100%;
+    }
+    #text{
+        text-align: center;
+    }
+   
+}
+@media screen and (min-width:700px) {
+    body{
+        margin-bottom: 0px;
+    }
+    h1{
+        font-size: 2.3em;
+        margin-left:50px;
+    }
+    p{
+        margin-left: 50px;
+    }
+    #text{
+       text-align: left;
+    }
+    #img{
+        text-align: center;
+    }
+    #img img{
+        width:70%;
+    }
+    button{
+       margin-left:50px;
+       width:30%;
+    }
+}
+@media screen and (min-width:1280px){
+    body{
+        background-image: url("/src/images/bg-desktop.svg");
+        background-repeat: no-repeat;
+    }
+    #img img{
+        width:100%;
+    }
+    h1{
+        font-size: 2.6em;
+        margin-left:50px;
+    }
+    p{
+        margin-left: 50px;
+    }
+   #container{
+       display: grid;
+       grid-template-columns: 50% 50%;
+   }
+   #text{
+       text-align: left;
+   }
+   button{
+       margin-left:50px;
+       width:30%;
+   }
+}
